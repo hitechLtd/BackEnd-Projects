@@ -12,7 +12,7 @@ app.get("/about", function(req, res){
     res.send("my name is hiflex and am the most hated in the class and I do not know why ")
 })
 app.get("/hobbies", function(req, res){
-    res.send("I really love girls so much ")
+    res.send("hobbies section")
 })
 app.listen(3000, function(){
     console.log("Server started on port 3000")
